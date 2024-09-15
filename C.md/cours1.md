@@ -72,7 +72,7 @@ Hello, World!
 ___________
  
  EXEMPLE :
-
+* Déclarer une variable
  ```C
  #include <stdio.h>
  int main() {
@@ -91,7 +91,8 @@ ___________
  
   <span style="color: FF0000">IMPORTANT</span>                                  |
  |----------------------------------------------------|
- * Un nom de variable peut contenir un seul type  de valeur. Par exemple, si la variable a été définie de type int, elle e peut stocker que des nombres entiers.
+
+ * Un nom de variable peut contenir un seul type  de valeur. Par exemple, si la variable a été définie de type int, elle ne  peut stocker que des nombres entiers.
 
  * Le langage de programmation C nécessite une création de variable, c'est à dire une  déclaration  avant son utilisation dans notre programme (contrairement à Python!). 
 
@@ -99,8 +100,10 @@ ___________
  * On peut donner n'importe quel nom à une variable(alphanumérique, majuscule où minuscule).
 
  * ne pas nommer une variable en commençant par un chiffre.
+ * ne pas nommer avec un des mots clés.
 
 ```C
+* stocker des données dans une variable
 #include <stdio.h>
 int main() {
     int a;
@@ -110,6 +113,7 @@ int main() {
 } /* ici nous avons donné des valeurs aux variables */
 ```
 ```C
+* accèder aux valeurs stockées dans une variable
 #include <stdio.h>
 int main() {
     int a;
@@ -128,6 +132,55 @@ int main() {
 ▲ 
 ## MOTS CLES
 ___________
+
+ MOTS CLES DE PROGRAMMATION C RESERVES 
+
+|Nom	   |Description	                                                                                        |
+|----------|----------------------------------------------------------------------------------------------------|
+|asm	   |Ce mot réservé permet d'inclure du code assembleur directement dans le code source C.|
+|auto	   |Ce mot réservé permet d'indiquer un spécificateur d'entreposage de classe.|
+|break	   |Ce mot réservé permet d'interrompre une boucle ou une instruction «switch».	
+|case	   |Ce mot réservé permet d'identifier un cas dans un mot réservé «switch».	
+|cdecl	   |Ce mot réservé permet d'indiquer une déclaration avec un appel de convention C.	
+|char	   |Ce mot réservé identifie le type de données de caractère.	
+|const	   |Ce mot réservé permet de définir une constante.	
+|continue  |Ce mot réservé permet de recommencer au début d'une boucle.	
+|default   |Ce mot réservé permet d'exécuter un cas par défaut si les autres ne sont pas correspondant dans un mot réservé «switch».	
+|do	       |Ce mot réservé permet d'effectuer une boucle avec un mot réservé «while».
+|double	   |Ce mot réservé identifie le type de données réel de double précision.	
+|else      |Ce mot réservé permet d'effectuer une situation contraire à la condition «if».
+|enum	   |Ce mot réservé permet d'identifier un type de données d'énumération.
+|extern	   |Ce mot réservé permet de déclarer une méthode externe comme par exemple lorsqu'on définit une API de Windows.
+|far	   |Ce mot réservé d'indiquer une porter longue.	 
+|float	   |Ce mot réservé permet d'identifier le type de données de «float».
+|for	   |Ce mot réservé permet d'effectuer un compteur de boucle.
+|goto	   |Ce mot réservé permet de faire un saut d'exécution à une étiquette.
+|huge	   |Ce mot réservé permet d'indiquer une porté global.	 
+|if	       |Ce mot réservé permet d'effectuer le traitement d'une condition.
+|inline	   |Ce mot réservé permet d'indiquer qu'il faut que le compilateur élargisse la fonction en ligne au moment de l'appel de la fonction ou d'un membre de fonctions
+|int	   |Ce mot réservé identifie le type de données d'entier.
+|interrupt |Ce mot réservé permet d'indiquer que la fonction est une interruption.
+|long	   |Ce mot réservé identifie le type de données d'entier long.
+|near	   |Ce mot réservé permet d'indiquer une porté proche.	 
+|pascal	   |Ce mot réservé permet d'indiquer que les appels sont compilés selon le format du langage de programmation Pascal.	 
+|register  |Ce mot réservé permet d'indiquer qu'il faut utiliser autant que possible les registres du microprocesseur pour contenir le contenu d'une variable ou d'un paramètre.
+|restrict  |Ce mot réservé permet d'indiquer une déclaration de fonction ou de définition n'envoyant pas un type de format pointeur, ainsi le compilateur retournera un objet n'étant pas un alias mais avec tous les pointeurs des autres.
+|return	   |Ce mot réservé permet de terminer une fonction avec une valeur optionnelle.	
+|short	   |Ce mot réservé identifie le type de données d'entier court.
+|signed	   |Ce mot réservé permet d'indiquer que le type de données est entier, donc qu'il support les nombres négatif.
+|sizeof	   |Ce mot réservé permet d'indiquer la taille d'un objet, d'une variable ou d'un type de données.
+|static	   |Ce mot réservé permet de rendre disponible une fonction ou variable d'une classe de façon global comme si elle se trouvait en dehors de la classe elle-même.
+|struct	   |Ce mot réservé permet d'identifier une structure de données (un enregistrement).	
+|switch	   |Ce mot réservé permet d'effectuer des testes de cas.	
+|typedef   |Ce mot réservé permet de définir un type de données.	
+|union	   |Ce mot réservé permet de définir des champs avec la même position de déplacement dans une structure, donc qu'y se superpose.	
+|unsigned  |Ce mot réservé permet d'indiquer que le type de données ne contient pas de partie négatif, que c'est n'est pas un nombre entier mais un nombre naturel.	
+|void	   |Ce mot réservé permet de définir un type n'ayant aucun type.	
+|volatile  |Ce mot réservé permet d'indiquer que la variable ne doit pas changer d'ordre de place en mémoire après la compilation.	
+|while	   |Ce mot réservé permet de définir une boucle.	
+|Bool	   |Ce mot réservé identifie le type de données booléen pouvant être 0 ou 1.	
+|Complex   |Ce mot réservé identifie le type de données d'un nombre complexe.	
+|Imaginary |Ce mot réservé identifie le type de données d'un nombre imaginaire.	
 
 ## OPERATEURS
 ____________
