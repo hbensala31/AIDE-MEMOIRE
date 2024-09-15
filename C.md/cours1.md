@@ -15,13 +15,37 @@ Ici, j'ai installé C/C++ en extention.
 ## SYNTAXE DE BASE
 _________________
 ````C
-#include <stdio.h>
+#include <stdio.h>/* instruction */
 
-int main() {
+int main() { /* fonction principale, après l'accolade c'est l'instruction du programme */
     /*printf() function to write Hello, world! */
     printf( "Hello, world!" );
 }
 ````
+
+| ESPACE BLANC    | EXPLICATION                  | REPRESENTATION |
+|-----------------|------------------------------|----------------|
+| Nouvelle ligne  | pour créer une nouvelle ligne| /n             |
+|-----------------|------------------------------|----------------|
+| Languette       | pour créer un onglet         | /t             |
+|-----------------|------------------------------|----------------|
+| Espace          | pour créer un espace         | espace         |
+
+▲ Chaque instruction individuelle doit se terminer par un point virgule en C.
+
+EXEMPLE :
+
+```C
+#include <stdio.h>
+
+int main() {
+    printf( "Hello, World"/n );
+    printf( "Hello, World" );
+} /* ce programme donnera 2 Hello, World! l'un n dessous de l'autre */
+```
+```C
+
+```
 ## VARIABLES
 ___________
 
