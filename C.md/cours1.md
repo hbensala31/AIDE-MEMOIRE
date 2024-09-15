@@ -3,41 +3,41 @@ ____________
 
 <span style="color: #26B260">Le langage C est dit bas niveau ; c'est à dire qu'il est près de la machine(code binaire).</span>
 
-##LES BASES
+## LES BASES
 ___________
 
-##ENVIRONNEMENTS
+## ENVIRONNEMENTS
 ________________
 
-##SYNTAXE DE BASE
+## SYNTAXE DE BASE
 _________________
 
-##VARIABLES
+## VARIABLES
 ___________
 
-##MOTS CLES
+## MOTS CLES
 ___________
 
-##OPERATEURS
+## OPERATEURS
 ____________
 
-##ENONCES DE DECISION
+## ENONCES DE DECISION
 _____________________
 
-##LES BOUCLES
+## LES BOUCLES
 _____________
 
-##NUMEROS
+## NUMEROS
 _________
 
-##CARACTERES
+## CARACTERES
 ____________
 
-##LES TABLEAUX
+## LES TABLEAUX
 ______________
 
-##CHAINES DE CARACTERES
+## CHAINES DE CARACTERES
 _______________________
 
-##LES FONCTIONS
+## LES FONCTIONS
 _______________
