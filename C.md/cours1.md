@@ -1,7 +1,7 @@
 # LANGAGE C
 ____________
 
-POUR INFO : [color=#26B260] Le langage C est dit bas niveau ; c'est à dire qu'il est près de la machine(code binaire)[/color].
+<span styles="color=#26B260"> Le langage C est dit bas niveau ; c'est à dire qu'il est près de la machine(code binaire).</span>
 
 ##LES BASES
 ___________
